@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -Wl,--dependency-file=CMakeFiles/an_nn.dir/link.d CMakeFiles/an_nn.dir/src/main.cpp.o CMakeFiles/an_nn.dir/src/neuron.cpp.o -o an_nn

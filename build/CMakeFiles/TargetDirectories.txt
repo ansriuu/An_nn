@@ -1,0 +1,3 @@
+/home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir
+/home/ansriuu/neural_network/build/CMakeFiles/edit_cache.dir
+/home/ansriuu/neural_network/build/CMakeFiles/rebuild_cache.dir
