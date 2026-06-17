@@ -13,4 +13,5 @@ add_executable(
 	an_nn
 	src/main.cpp
 	src/neuron.cpp
+	src/matrix.cpp
 )

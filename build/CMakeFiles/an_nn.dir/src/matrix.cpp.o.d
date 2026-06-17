@@ -1,5 +1,6 @@
-CMakeFiles/an_nn.dir/src/main.cpp.o: \
- /home/ansriuu/neural_network/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/an_nn.dir/src/matrix.cpp.o: \
+ /home/ansriuu/neural_network/src/matrix.cpp /usr/include/stdc-predef.h \
+ /home/ansriuu/neural_network/src/../include/matrix.hpp \
  /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -159,9 +160,8 @@ CMakeFiles/an_nn.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc \
- /home/ansriuu/neural_network/src/../include/neuron.hpp \
- /usr/include/c++/15/math.h /usr/include/c++/15/cmath /usr/include/math.h \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/random \
+ /usr/include/c++/15/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -172,8 +172,7 @@ CMakeFiles/an_nn.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/ansriuu/neural_network/src/../include/matrix.hpp \
- /usr/include/c++/15/random /usr/include/c++/15/cstdint \
+ /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \

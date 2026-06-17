@@ -9,6 +9,14 @@ neuron::neuron(double Val)
 
 }
 
+void neuron:: setVal(double val)
+{
+	this->Val = val;
+	activation_func();
+	derive();
+}
+
+
 void neuron::activation_func()
 {
 	this->activeVal = this->Val / ( 1 + abs(this->Val));

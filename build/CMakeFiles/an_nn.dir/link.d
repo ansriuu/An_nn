@@ -4,6 +4,7 @@ an_nn: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/an_nn.dir/src/main.cpp.o \
   CMakeFiles/an_nn.dir/src/neuron.cpp.o \
+  CMakeFiles/an_nn.dir/src/matrix.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -30,7 +31,6 @@ an_nn: \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
-  /usr/lib/x86_64-linux-gnu/libm.so.6 \
   /lib64/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o:
@@ -42,6 +42,8 @@ an_nn: \
 CMakeFiles/an_nn.dir/src/main.cpp.o:
 
 CMakeFiles/an_nn.dir/src/neuron.cpp.o:
+
+CMakeFiles/an_nn.dir/src/matrix.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
@@ -94,7 +96,5 @@ CMakeFiles/an_nn.dir/src/neuron.cpp.o:
 /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o:
-
-/usr/lib/x86_64-linux-gnu/libm.so.6:
 
 /lib64/ld-linux-x86-64.so.2:

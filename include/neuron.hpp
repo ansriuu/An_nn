@@ -15,6 +15,8 @@ class neuron
 	public:
 		neuron(double Val);
 
+		void setVal(double Val);
+
 		// using the fast sigmoid fuction == as it is easier to find its derivative
 		// f(x) = x / ( 1 + abs(x) )
 		void  activation_func();
