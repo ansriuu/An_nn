@@ -9,3 +9,8 @@ layer::layer(int size)
 		this->neurons.push_back(n);
 	}
 }
+
+void layer::setVal(int idx, double val)
+{
+	this->neurons.at(idx) = val;
+}

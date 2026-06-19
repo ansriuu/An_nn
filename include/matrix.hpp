@@ -17,17 +17,15 @@ class matrix
 	
 		// if isRandom in 0 then we intialise with all values as 0
 		matrix(int rows, int columns,bool isRandom);
-		matrix *transpose();
 
-		void setVal(int r, int c, double v);
-		double getVal(int r, int c);
+		void setVal(int r, int c, double v) {this->values[r][c] = v ; }
+		double getVal(int r, int c) { return this->values[r][c];}
 		double RandNumGen();
 		int getRows(){return rows;}
 		int getColumns(){return columns;}
 
 		void printmatrix();
+		matrix*  transpose();
+
 };
-
-
-
 #endif

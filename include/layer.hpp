@@ -13,6 +13,7 @@ class layer
 		vector<neuron *> neurons; 
 	public:
 		layer(int size);
+		void setVal(vector<int idx, double val);
 
 };
 

@@ -22,10 +22,19 @@ matrix::matrix(int rows, int columns, bool isRandom)
 
 }
 
-void setVal(int r, int c, double v)
+
+matrix  *matrix::transpose()
 {
+	int r = this->columns, c = this->rows;
+	matrix *m = new matrix(r,c,0);
+	for (int i = 0 ; i < r ; i++)
+		for (int j = 0 ; j < c ; j++)
+			m->setVal(i,j,this->getVal(j,i));
+		
+	return m;
 
 }
+
 
 double matrix::RandNumGen()
 {	
