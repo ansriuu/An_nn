@@ -129,6 +129,30 @@ an_nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/build
 .PHONY : an_nn/fast
 
+src/layer.o: src/layer.cpp.o
+.PHONY : src/layer.o
+
+# target to build an object file
+src/layer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.o
+.PHONY : src/layer.cpp.o
+
+src/layer.i: src/layer.cpp.i
+.PHONY : src/layer.i
+
+# target to preprocess a source file
+src/layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.i
+.PHONY : src/layer.cpp.i
+
+src/layer.s: src/layer.cpp.s
+.PHONY : src/layer.s
+
+# target to generate assembly for a file
+src/layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.s
+.PHONY : src/layer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,6 +201,30 @@ src/matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/matrix.cpp.s
 .PHONY : src/matrix.cpp.s
 
+src/neural_net.o: src/neural_net.cpp.o
+.PHONY : src/neural_net.o
+
+# target to build an object file
+src/neural_net.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.o
+.PHONY : src/neural_net.cpp.o
+
+src/neural_net.i: src/neural_net.cpp.i
+.PHONY : src/neural_net.i
+
+# target to preprocess a source file
+src/neural_net.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.i
+.PHONY : src/neural_net.cpp.i
+
+src/neural_net.s: src/neural_net.cpp.s
+.PHONY : src/neural_net.s
+
+# target to generate assembly for a file
+src/neural_net.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.s
+.PHONY : src/neural_net.cpp.s
+
 src/neuron.o: src/neuron.cpp.o
 .PHONY : src/neuron.o
 
@@ -210,12 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... an_nn"
+	@echo "... src/layer.o"
+	@echo "... src/layer.i"
+	@echo "... src/layer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/matrix.o"
 	@echo "... src/matrix.i"
 	@echo "... src/matrix.s"
+	@echo "... src/neural_net.o"
+	@echo "... src/neural_net.i"
+	@echo "... src/neural_net.s"
 	@echo "... src/neuron.o"
 	@echo "... src/neuron.i"
 	@echo "... src/neuron.s"

@@ -1,5 +1,7 @@
-CMakeFiles/an_nn.dir/src/main.cpp.o: \
- /home/ansriuu/neural_network/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/an_nn.dir/src/neural_net.cpp.o: \
+ /home/ansriuu/neural_network/src/neural_net.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ansriuu/neural_network/src/../include/neural_net.hpp \
  /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -155,11 +157,8 @@ CMakeFiles/an_nn.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/vector \
- /usr/include/c++/15/bits/stl_uninitialized.h \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc \
+ /usr/include/c++/15/bits/istream.tcc \
+ /home/ansriuu/neural_network/src/../include/layer.hpp \
  /home/ansriuu/neural_network/src/../include/neuron.hpp \
  /usr/include/c++/15/math.h /usr/include/c++/15/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -173,7 +172,11 @@ CMakeFiles/an_nn.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /home/ansriuu/neural_network/src/../include/matrix.hpp \
- /usr/include/c++/15/random /usr/include/c++/15/cstdint \
+ /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/random \
+ /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
@@ -181,8 +184,4 @@ CMakeFiles/an_nn.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/uniform_int_dist.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
  /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
- /usr/include/c++/15/bits/stl_numeric.h \
- /home/ansriuu/neural_network/src/../include/neural_net.hpp \
- /home/ansriuu/neural_network/src/../include/layer.hpp \
- /home/ansriuu/neural_network/src/../include/neuron.hpp \
- /home/ansriuu/neural_network/src/../include/matrix.hpp
+ /usr/include/c++/15/bits/stl_numeric.h

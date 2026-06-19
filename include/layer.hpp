@@ -2,7 +2,9 @@
 #define _LAYER_HPP_
 
 #include <iostream>
-#include <neuron.hpp>
+#include "neuron.hpp"
+#include "matrix.hpp"
+
 using namespace std;
 
 class layer
@@ -13,8 +15,10 @@ class layer
 		vector<neuron *> neurons; 
 	public:
 		layer(int size);
-		void setVal(vector<int idx, double val);
-
+		void setVal(int idx, double val);
+		matrix *matrixifyVals();
+		matrix *matrixifyActiveVals();
+		matrix *matrixifyDeriveVals();
 };
 
 
