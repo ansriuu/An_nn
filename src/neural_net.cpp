@@ -32,7 +32,7 @@ void neural_net:: printnn()
 {
 	for (int i = 0; i < this->layers.size() ;i++)
 	{
-		cout << "layers ------" << endl;
+		cout << "layer : " << i <<  endl;
 		if (i == 0 )
 		{
 			matrix *m = this->layers[i]->matrixifyVals();
