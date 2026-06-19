@@ -142,13 +142,43 @@ CMakeFiles/an_nn.dir/src/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/an_nn.dir/src/layer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ansriuu/neural_network/src/layer.cpp -o CMakeFiles/an_nn.dir/src/layer.cpp.s
 
+CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o: CMakeFiles/an_nn.dir/flags.make
+CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o: /home/ansriuu/neural_network/src/utils/multiplyMatrix.cpp
+CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o: CMakeFiles/an_nn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ansriuu/neural_network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o -MF CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o.d -o CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o -c /home/ansriuu/neural_network/src/utils/multiplyMatrix.cpp
+
+CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ansriuu/neural_network/src/utils/multiplyMatrix.cpp > CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.i
+
+CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ansriuu/neural_network/src/utils/multiplyMatrix.cpp -o CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.s
+
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o: CMakeFiles/an_nn.dir/flags.make
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o: /home/ansriuu/neural_network/src/utils/matrixToVector.cpp
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o: CMakeFiles/an_nn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ansriuu/neural_network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o -MF CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o.d -o CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o -c /home/ansriuu/neural_network/src/utils/matrixToVector.cpp
+
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ansriuu/neural_network/src/utils/matrixToVector.cpp > CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.i
+
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ansriuu/neural_network/src/utils/matrixToVector.cpp -o CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.s
+
 # Object files for target an_nn
 an_nn_OBJECTS = \
 "CMakeFiles/an_nn.dir/src/main.cpp.o" \
 "CMakeFiles/an_nn.dir/src/neuron.cpp.o" \
 "CMakeFiles/an_nn.dir/src/matrix.cpp.o" \
 "CMakeFiles/an_nn.dir/src/neural_net.cpp.o" \
-"CMakeFiles/an_nn.dir/src/layer.cpp.o"
+"CMakeFiles/an_nn.dir/src/layer.cpp.o" \
+"CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o" \
+"CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o"
 
 # External object files for target an_nn
 an_nn_EXTERNAL_OBJECTS =
@@ -158,10 +188,12 @@ an_nn: CMakeFiles/an_nn.dir/src/neuron.cpp.o
 an_nn: CMakeFiles/an_nn.dir/src/matrix.cpp.o
 an_nn: CMakeFiles/an_nn.dir/src/neural_net.cpp.o
 an_nn: CMakeFiles/an_nn.dir/src/layer.cpp.o
+an_nn: CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o
+an_nn: CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o
 an_nn: CMakeFiles/an_nn.dir/build.make
 an_nn: CMakeFiles/an_nn.dir/compiler_depend.ts
 an_nn: CMakeFiles/an_nn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ansriuu/neural_network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable an_nn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ansriuu/neural_network/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable an_nn"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/an_nn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

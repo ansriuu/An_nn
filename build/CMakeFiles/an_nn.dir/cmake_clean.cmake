@@ -10,6 +10,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/an_nn.dir/src/neural_net.cpp.o.d"
   "CMakeFiles/an_nn.dir/src/neuron.cpp.o"
   "CMakeFiles/an_nn.dir/src/neuron.cpp.o.d"
+  "CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o"
+  "CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o.d"
+  "CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o"
+  "CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o.d"
   "an_nn"
   "an_nn.pdb"
 )

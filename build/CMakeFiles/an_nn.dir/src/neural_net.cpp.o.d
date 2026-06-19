@@ -184,4 +184,7 @@ CMakeFiles/an_nn.dir/src/neural_net.cpp.o: \
  /usr/include/c++/15/bits/uniform_int_dist.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
  /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
- /usr/include/c++/15/bits/stl_numeric.h
+ /usr/include/c++/15/bits/stl_numeric.h \
+ /home/ansriuu/neural_network/src/../include/utils/multiplyMatrix.hpp \
+ /usr/include/assert.h \
+ /home/ansriuu/neural_network/src/../include/utils/../matrix.hpp

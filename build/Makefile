@@ -249,6 +249,54 @@ src/neuron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neuron.cpp.s
 .PHONY : src/neuron.cpp.s
 
+src/utils/matrixToVector.o: src/utils/matrixToVector.cpp.o
+.PHONY : src/utils/matrixToVector.o
+
+# target to build an object file
+src/utils/matrixToVector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o
+.PHONY : src/utils/matrixToVector.cpp.o
+
+src/utils/matrixToVector.i: src/utils/matrixToVector.cpp.i
+.PHONY : src/utils/matrixToVector.i
+
+# target to preprocess a source file
+src/utils/matrixToVector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.i
+.PHONY : src/utils/matrixToVector.cpp.i
+
+src/utils/matrixToVector.s: src/utils/matrixToVector.cpp.s
+.PHONY : src/utils/matrixToVector.s
+
+# target to generate assembly for a file
+src/utils/matrixToVector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.s
+.PHONY : src/utils/matrixToVector.cpp.s
+
+src/utils/multiplyMatrix.o: src/utils/multiplyMatrix.cpp.o
+.PHONY : src/utils/multiplyMatrix.o
+
+# target to build an object file
+src/utils/multiplyMatrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o
+.PHONY : src/utils/multiplyMatrix.cpp.o
+
+src/utils/multiplyMatrix.i: src/utils/multiplyMatrix.cpp.i
+.PHONY : src/utils/multiplyMatrix.i
+
+# target to preprocess a source file
+src/utils/multiplyMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.i
+.PHONY : src/utils/multiplyMatrix.cpp.i
+
+src/utils/multiplyMatrix.s: src/utils/multiplyMatrix.cpp.s
+.PHONY : src/utils/multiplyMatrix.s
+
+# target to generate assembly for a file
+src/utils/multiplyMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.s
+.PHONY : src/utils/multiplyMatrix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +321,12 @@ help:
 	@echo "... src/neuron.o"
 	@echo "... src/neuron.i"
 	@echo "... src/neuron.s"
+	@echo "... src/utils/matrixToVector.o"
+	@echo "... src/utils/matrixToVector.i"
+	@echo "... src/utils/matrixToVector.s"
+	@echo "... src/utils/multiplyMatrix.o"
+	@echo "... src/utils/multiplyMatrix.i"
+	@echo "... src/utils/multiplyMatrix.s"
 .PHONY : help
 
 

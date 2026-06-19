@@ -5,6 +5,11 @@
 #include "layer.hpp"
 #include <vector>
 #include "matrix.hpp"
+#include "utils/multiplyMatrix.hpp"
+
+
+
+
 using namespace std;
 
 class neural_net
@@ -19,6 +24,12 @@ class neural_net
 		neural_net(vector<int> topology); 
 		void setInput(vector<double> input);
 		void printnn();
+
+		matrix *getNeuronMatrix(int idx) {return this->layers[idx]->matrixifyVals();}
+		matrix *getActivatedNeuronMatrix(int idx) { return this->layers[idx]->matrixifyActiveVals(); }
+		matrix *getderivedNeuronMatrix(int idx) { return this->layers[idx]->matrixifyDeriveVals(); }
+
+		matrix *getWeightMatrix(int idx) { return this->weightmatrices[idx]; }
 		
 
 };

@@ -19,6 +19,9 @@ class layer
 		matrix *matrixifyVals();
 		matrix *matrixifyActiveVals();
 		matrix *matrixifyDeriveVals();
+
+		vector<neuron *> getNeurons() {return this->neurons;}
+		void setNeuron(vector<neuron *>) { this->neurons = neurons;}
 };
 
 
