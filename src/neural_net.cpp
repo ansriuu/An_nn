@@ -20,6 +20,29 @@ neural_net::neural_net(vector<int> topology)
 
 }
 
+void neural_net::feedforward()
+{
+	for ( int i = 0 ; i < this->layers.size() - 1 ; i++)
+	{
+		matrix *a = this->getNeuronMatrix(i);
+
+		if (i != 0 ) 
+			a = this->getActivatedNeuronMatrix(i);
+
+		matrix *b = this->getWeightMatrix(i);
+		matrix *c = (new utils::multiplyMatrix(a,b))->utils::multiplyMatrix::execute();
+
+
+		vector<double> vals;
+		for (int i = 0 ; i < c->getColumns(); c++)
+			vals.push_back(c->getVal(0,i));
+
+
+	}
+}
+
+
+
 void neural_net::setInput(vector<double> input)
 {
 	this->input = input;
@@ -28,7 +51,7 @@ void neural_net::setInput(vector<double> input)
 			
 }
 
-void neural_net:: printnn()
+void neural_net::printnn()
 {
 	for (int i = 0; i < this->layers.size() ;i++)
 	{

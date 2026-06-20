@@ -24,6 +24,7 @@ class neural_net
 		neural_net(vector<int> topology); 
 		void setInput(vector<double> input);
 		void printnn();
+		void feedforward();
 
 		matrix *getNeuronMatrix(int idx) {return this->layers[idx]->matrixifyVals();}
 		matrix *getActivatedNeuronMatrix(int idx) { return this->layers[idx]->matrixifyActiveVals(); }

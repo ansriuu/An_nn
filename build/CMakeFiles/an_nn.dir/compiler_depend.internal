@@ -1608,5 +1608,6 @@ an_nn
  /home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir/src/matrix.cpp.o
  /home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir/src/neural_net.cpp.o
  /home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir/src/neuron.cpp.o
+ /home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o
  /home/ansriuu/neural_network/build/CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o
 

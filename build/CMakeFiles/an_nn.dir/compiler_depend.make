@@ -1600,8 +1600,11 @@ an_nn: /lib64/ld-linux-x86-64.so.2 \
   CMakeFiles/an_nn.dir/src/matrix.cpp.o \
   CMakeFiles/an_nn.dir/src/neural_net.cpp.o \
   CMakeFiles/an_nn.dir/src/neuron.cpp.o \
+  CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o \
   CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o
 
+
+CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o:
 
 /usr/include/stdlib.h:
 
