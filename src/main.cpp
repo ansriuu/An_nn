@@ -14,10 +14,10 @@ int main(int argc, char **argv)
 	// input
 	neuron *n1 = new neuron(1.5);
 	matrix *m = new matrix(3,2,1);
-	m->printmatrix();
+//	m->printmatrix();
 	cout << "transpose ----- " << endl;
 	matrix *mt = m->transpose();
-	mt->printmatrix();
+//	mt->printmatrix();
 //	cout << n1->getVal() << " " << n1->getActiveVal() <<" " <<n1->getDeriveVal()<< endl
 	
 
@@ -31,7 +31,8 @@ int main(int argc, char **argv)
 
 	neural_net *nn = new neural_net(topology);
 	nn->setInput(input);
-	nn->printnn();
+//	nn->printnn();
+	nn->feedforward();
 
 
 	return 0;

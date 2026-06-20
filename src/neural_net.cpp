@@ -33,9 +33,13 @@ void neural_net::feedforward()
 		matrix *c = (new utils::multiplyMatrix(a,b))->utils::multiplyMatrix::execute();
 
 
+
 		vector<double> vals;
 		for (int i = 0 ; i < c->getColumns(); c++)
 			vals.push_back(c->getVal(0,i));
+
+		cout << "printing the c matrix ---" << endl;
+		c->printmatrix();
 
 
 	}
