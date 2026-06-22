@@ -10,7 +10,7 @@ neural_net::neural_net(vector<int> topology)
 		this->layers.push_back(l);
 	}
 
-	for (int i = 0 ; i < (topologySize - 1)   ; i++)	// no of wight matrices in the neural network is one less than the topology size 
+	for (int i = 0 ; i < (topologySize - 1)   ; i++)	// no of wight matrices in the neural network is one less than the toplogy size 
 	{
 		// the rows of the wight matrix will equal the number of neurons to the left -- previous layer 
 		matrix *m = new matrix(topology.at(i),topology.at(i+1),1); 
@@ -31,15 +31,14 @@ void neural_net::feedforward()
 
 		matrix *b = this->getWeightMatrix(i);
 		matrix *c = (new utils::multiplyMatrix(a,b))->utils::multiplyMatrix::execute();
+	
 
 
 
 		vector<double> vals;
-		for (int i = 0 ; i < c->getColumns(); c++)
+		for (int i = 0 ; i < c->getColumns(); i++)
 			vals.push_back(c->getVal(0,i));
 
-		cout << "printing the c matrix ---" << endl;
-		c->printmatrix();
 
 
 	}
