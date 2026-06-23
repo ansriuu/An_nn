@@ -34,16 +34,39 @@ void neural_net::feedforward()
 	
 
 
+		for (int j = 0 ; j < c->getColumns(); j++){
+			this->setNeuronVal(i + 1 ,j, c->getVal(0,j));
 
-		vector<double> vals;
-		for (int i = 0 ; i < c->getColumns(); i++)
-			vals.push_back(c->getVal(0,i));
-
-
-
+		}
 	}
 }
 
+
+
+void neural_net::setErr()
+{
+	int outputLayerIdx = this->layers.size() -1;
+	if (this->target.size() == 0 ){
+		cerr<<" no target for this neural network"<<endl;
+		assert(false);
+	}
+	if (this->target.size() != this->layers.at(outputLayerIdx)->getNeurons().size()) 
+	{
+		cerr<<"target size is not the same as output layer's size: " << this->layers.at(outputLayerIdx)->getNeurons().size() << endl;
+		assert(false);
+	}
+
+	this->error = 0.00;
+	vector<neuron *> outputNeurons = this->layers.at(outputLayerIdx)->getNeurons();
+	for (int i =0 ; i < target.size() ; i++)
+	{
+		double tempErr = (outputNeurons.at(i)->getActiveVal() - target.at(i)); 
+		this->errors.push_back( tempErr);
+		this->error += tempErr;
+	}
+	this->historicalErr.push_back(this->error);
+
+}
 
 
 void neural_net::setInput(vector<double> input)
@@ -63,11 +86,13 @@ void neural_net::printnn()
 		{
 			matrix *m = this->layers[i]->matrixifyVals();
 			m->printmatrix();
+			cout<<endl;
 		}
 		else 
 		{
 			matrix *m = this->layers[i]->matrixifyActiveVals();
 			m->printmatrix();
+			cout<<endl;
 		}
 	}
 
