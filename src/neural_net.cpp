@@ -5,7 +5,7 @@ neural_net::neural_net(vector<int> topology)
 	this->topology = topology;
 	this->topologySize = topology.size();
 
-	for (int i = 0 ; i < topologySize ; i++){
+	for (int i = 0 ; i < topologySize ; i++){ 
 		layer *l = new layer(topology.at(i));
 		this->layers.push_back(l);
 	}
@@ -58,16 +58,33 @@ void neural_net::setErr()
 
 	this->error = 0.00;
 	vector<neuron *> outputNeurons = this->layers.at(outputLayerIdx)->getNeurons();
-	for (int i =0 ; i < target.size() ; i++)
-	{
+
+
+
+	vector<double> temp = this->errors;
+
+	for (int i =0 ; i < outputNeurons.size(); i++){
+
 		double tempErr = (outputNeurons.at(i)->getActiveVal() - target.at(i)); 
-		this->errors.push_back( tempErr);
+	
+
+		temp.push_back(tempErr);
+	//	cout<< temp.back() << endl;
+		this->errors.push_back(this->error);
 		this->error += tempErr;
-	}
+	}	
+	for (int i =0 ; i < temp.size() ; i++ ) 
+
 	this->historicalErr.push_back(this->error);
+	for (int i =0 ; i < temp.size() ; i++ ) 
+			{
+	
+			cout<< temp[i] << " " << endl;//<< this->errors[i];
+
+			}
+
 
 }
-
 
 void neural_net::setInput(vector<double> input)
 {

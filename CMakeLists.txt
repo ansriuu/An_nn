@@ -17,6 +17,7 @@ add_executable(
 	src/matrix.cpp
 	src/neural_net.cpp
 	src/layer.cpp
+	src/backpropagation.cpp
 	src/utils/multiplyMatrix.cpp
 	src/utils/matrixToVector.cpp
 )

@@ -33,7 +33,9 @@ int main(int argc, char **argv)
 	nn->setTarget(input);
 	nn->setInput(input);
 	nn->feedforward();
+	nn->printnn();
 	nn->setErr();
+	nn->backpropagation();
 
   	nn->printnn();
 	cout << "total err " << nn->getTotalErr()<<endl;

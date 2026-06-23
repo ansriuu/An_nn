@@ -19,9 +19,10 @@ class neural_net
 		vector<int> topology; // topology is just layers and the number of neurons in the layers
 		vector<layer *> layers;
 		vector<matrix *> weightmatrices;
+		vector<matrix *> gradientmatrices;
 		vector<double> input;
 
-		double         error;
+		double error;
 		vector<double> target;
 		vector<double> errors;
 		vector<double> historicalErr;
@@ -33,6 +34,7 @@ class neural_net
 		void feedforward();
 		void setErr();
 		void setNeuronVal(int layerIdx, int neuronIdx , double val) {this->layers.at(layerIdx)->setVal(neuronIdx,val); }
+		void backpropagation(); 
 
 		matrix *getNeuronMatrix(int idx) {return this->layers[idx]->matrixifyVals();}
 		matrix *getActivatedNeuronMatrix(int idx) { return this->layers[idx]->matrixifyActiveVals(); }
