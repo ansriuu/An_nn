@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/an_nn.dir/link.d"
+  "CMakeFiles/an_nn.dir/src/backpropagation.cpp.o"
+  "CMakeFiles/an_nn.dir/src/backpropagation.cpp.o.d"
   "CMakeFiles/an_nn.dir/src/layer.cpp.o"
   "CMakeFiles/an_nn.dir/src/layer.cpp.o.d"
   "CMakeFiles/an_nn.dir/src/main.cpp.o"

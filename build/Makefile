@@ -129,6 +129,30 @@ an_nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/build
 .PHONY : an_nn/fast
 
+src/backpropagation.o: src/backpropagation.cpp.o
+.PHONY : src/backpropagation.o
+
+# target to build an object file
+src/backpropagation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.o
+.PHONY : src/backpropagation.cpp.o
+
+src/backpropagation.i: src/backpropagation.cpp.i
+.PHONY : src/backpropagation.i
+
+# target to preprocess a source file
+src/backpropagation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.i
+.PHONY : src/backpropagation.cpp.i
+
+src/backpropagation.s: src/backpropagation.cpp.s
+.PHONY : src/backpropagation.s
+
+# target to generate assembly for a file
+src/backpropagation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.s
+.PHONY : src/backpropagation.cpp.s
+
 src/layer.o: src/layer.cpp.o
 .PHONY : src/layer.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... an_nn"
+	@echo "... src/backpropagation.o"
+	@echo "... src/backpropagation.i"
+	@echo "... src/backpropagation.s"
 	@echo "... src/layer.o"
 	@echo "... src/layer.i"
 	@echo "... src/layer.s"
