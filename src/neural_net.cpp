@@ -60,29 +60,13 @@ void neural_net::setErr()
 	vector<neuron *> outputNeurons = this->layers.at(outputLayerIdx)->getNeurons();
 
 
-
-	vector<double> temp = this->errors;
-
 	for (int i =0 ; i < outputNeurons.size(); i++){
-
 		double tempErr = (outputNeurons.at(i)->getActiveVal() - target.at(i)); 
-	
-
-		temp.push_back(tempErr);
-	//	cout<< temp.back() << endl;
-		this->errors.push_back(this->error);
+		this->errors.push_back(tempErr);
 		this->error += tempErr;
 	}	
-	for (int i =0 ; i < temp.size() ; i++ ) 
 
 	this->historicalErr.push_back(this->error);
-	for (int i =0 ; i < temp.size() ; i++ ) 
-			{
-	
-			cout<< temp[i] << " " << endl;//<< this->errors[i];
-
-			}
-
 
 }
 
