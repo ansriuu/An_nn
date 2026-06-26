@@ -1,30 +1,53 @@
 #include "../include/neuron.hpp"
 
-// constructor 
-neuron::neuron(double Val)
+void neuron::setVal(double val)
 {
-	this->Val = Val;
-	activation_func();
+	this->val = val;
+	activate();
 	derive();
 
 }
 
-void neuron:: setVal(double val)
+void neuron::activate()
 {
-	this->Val = val;
-	activation_func();
-	derive();
+	if(activationVal== TANH){
+		this->activeVal = tanh(this->val);
+	}
+	else if(activationVal == RELU ){
+		if ( this->val > 0 )
+			this->activeVal =  this->val;
+		else 
+			this->activeVal = 0;
+	}
+	else if (activationVal = SIGM ) {
+		this->activeVal = (1 / ( 1 + exp(-this->val)));
+
+	}
+
+	else {
+		this->activeVal = (1 / ( 1 + exp(-this->val)));
+
+	}
+
 }
 
-
-void neuron::activation_func()
+void neuron::derive() 
 {
-	this->activeVal = this->Val / ( 1 + abs(this->Val));
-}
+	if(activationVal== TANH){
+		this->deriveVal = ( 1 - (this->deriveVal * this->deriveVal ));
+	}
+	else if(activationVal == RELU ){
+		if ( this->val > 0 )
+			this->deriveVal =  1;
+		else 
+			this->deriveVal = 0;
+	}
+	else if (activationVal = SIGM ) {
+		this->deriveVal = (this->activeVal *   (1 - this->activeVal));
 
-
-void neuron::derive()
-{
-	this->deriveVal = this->activeVal * (1 - this->activeVal);
-
-}
+	}
+	else 
+	{
+		this->deriveVal = (this->activeVal *   (1 - this->activeVal));
+	}
+};

@@ -129,54 +129,6 @@ an_nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/build
 .PHONY : an_nn/fast
 
-src/backpropagation.o: src/backpropagation.cpp.o
-.PHONY : src/backpropagation.o
-
-# target to build an object file
-src/backpropagation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.o
-.PHONY : src/backpropagation.cpp.o
-
-src/backpropagation.i: src/backpropagation.cpp.i
-.PHONY : src/backpropagation.i
-
-# target to preprocess a source file
-src/backpropagation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.i
-.PHONY : src/backpropagation.cpp.i
-
-src/backpropagation.s: src/backpropagation.cpp.s
-.PHONY : src/backpropagation.s
-
-# target to generate assembly for a file
-src/backpropagation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/backpropagation.cpp.s
-.PHONY : src/backpropagation.cpp.s
-
-src/layer.o: src/layer.cpp.o
-.PHONY : src/layer.o
-
-# target to build an object file
-src/layer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.o
-.PHONY : src/layer.cpp.o
-
-src/layer.i: src/layer.cpp.i
-.PHONY : src/layer.i
-
-# target to preprocess a source file
-src/layer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.i
-.PHONY : src/layer.cpp.i
-
-src/layer.s: src/layer.cpp.s
-.PHONY : src/layer.s
-
-# target to generate assembly for a file
-src/layer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.s
-.PHONY : src/layer.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -200,54 +152,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/matrix.o: src/matrix.cpp.o
-.PHONY : src/matrix.o
-
-# target to build an object file
-src/matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/matrix.cpp.o
-.PHONY : src/matrix.cpp.o
-
-src/matrix.i: src/matrix.cpp.i
-.PHONY : src/matrix.i
-
-# target to preprocess a source file
-src/matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/matrix.cpp.i
-.PHONY : src/matrix.cpp.i
-
-src/matrix.s: src/matrix.cpp.s
-.PHONY : src/matrix.s
-
-# target to generate assembly for a file
-src/matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/matrix.cpp.s
-.PHONY : src/matrix.cpp.s
-
-src/neural_net.o: src/neural_net.cpp.o
-.PHONY : src/neural_net.o
-
-# target to build an object file
-src/neural_net.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.o
-.PHONY : src/neural_net.cpp.o
-
-src/neural_net.i: src/neural_net.cpp.i
-.PHONY : src/neural_net.i
-
-# target to preprocess a source file
-src/neural_net.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.i
-.PHONY : src/neural_net.cpp.i
-
-src/neural_net.s: src/neural_net.cpp.s
-.PHONY : src/neural_net.s
-
-# target to generate assembly for a file
-src/neural_net.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neural_net.cpp.s
-.PHONY : src/neural_net.cpp.s
 
 src/neuron.o: src/neuron.cpp.o
 .PHONY : src/neuron.o
@@ -273,54 +177,6 @@ src/neuron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neuron.cpp.s
 .PHONY : src/neuron.cpp.s
 
-src/utils/matrixToVector.o: src/utils/matrixToVector.cpp.o
-.PHONY : src/utils/matrixToVector.o
-
-# target to build an object file
-src/utils/matrixToVector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o
-.PHONY : src/utils/matrixToVector.cpp.o
-
-src/utils/matrixToVector.i: src/utils/matrixToVector.cpp.i
-.PHONY : src/utils/matrixToVector.i
-
-# target to preprocess a source file
-src/utils/matrixToVector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.i
-.PHONY : src/utils/matrixToVector.cpp.i
-
-src/utils/matrixToVector.s: src/utils/matrixToVector.cpp.s
-.PHONY : src/utils/matrixToVector.s
-
-# target to generate assembly for a file
-src/utils/matrixToVector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.s
-.PHONY : src/utils/matrixToVector.cpp.s
-
-src/utils/multiplyMatrix.o: src/utils/multiplyMatrix.cpp.o
-.PHONY : src/utils/multiplyMatrix.o
-
-# target to build an object file
-src/utils/multiplyMatrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o
-.PHONY : src/utils/multiplyMatrix.cpp.o
-
-src/utils/multiplyMatrix.i: src/utils/multiplyMatrix.cpp.i
-.PHONY : src/utils/multiplyMatrix.i
-
-# target to preprocess a source file
-src/utils/multiplyMatrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.i
-.PHONY : src/utils/multiplyMatrix.cpp.i
-
-src/utils/multiplyMatrix.s: src/utils/multiplyMatrix.cpp.s
-.PHONY : src/utils/multiplyMatrix.s
-
-# target to generate assembly for a file
-src/utils/multiplyMatrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.s
-.PHONY : src/utils/multiplyMatrix.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -330,30 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... an_nn"
-	@echo "... src/backpropagation.o"
-	@echo "... src/backpropagation.i"
-	@echo "... src/backpropagation.s"
-	@echo "... src/layer.o"
-	@echo "... src/layer.i"
-	@echo "... src/layer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/matrix.o"
-	@echo "... src/matrix.i"
-	@echo "... src/matrix.s"
-	@echo "... src/neural_net.o"
-	@echo "... src/neural_net.i"
-	@echo "... src/neural_net.s"
 	@echo "... src/neuron.o"
 	@echo "... src/neuron.i"
 	@echo "... src/neuron.s"
-	@echo "... src/utils/matrixToVector.o"
-	@echo "... src/utils/matrixToVector.i"
-	@echo "... src/utils/matrixToVector.s"
-	@echo "... src/utils/multiplyMatrix.o"
-	@echo "... src/utils/multiplyMatrix.i"
-	@echo "... src/utils/multiplyMatrix.s"
 .PHONY : help
 
 

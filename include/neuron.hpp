@@ -1,38 +1,37 @@
 #ifndef _NEURON_HPP_
 #define _NEURON_HPP_
 
+
+#define TANH 1 
+#define RELU 2
+#define SIGM 3 
+
 #include <iostream>
 #include <math.h>
-using namespace std;
 
 class neuron
 {
-	private:
-		double Val;
+	private: 
+		double val;
 		double activeVal;
 		double deriveVal;
 
+		int activationVal; // according to the activation type 
+
 	public:
-		neuron(double Val);
+		neuron(double val);
+		neuron( double val,int activationType);
 
-		void setVal(double Val);
-
-		// using the fast sigmoid fuction == as it is easier to find its derivative
-		// f(x) = x / ( 1 + abs(x) )
-		void  activation_func();
-
-		// derivative for fast sigmoid function
-		// f'(x) = f(x) * (1 - f(x))
+		void setVal(double val);
+		void activate();
 		void derive();
 
-		double getVal() { return this->Val;}
-		double getActiveVal() { return this->activeVal;}
-		double getDeriveVal() { return this->deriveVal;}
+		double getActiveVal() { return this->activeVal; } 
+		double getDeriveVal() {return this->deriveVal;}
+		double getVal() {return this->val; }
 
 
 };
 
 
-
-
-#endif
+#endif 

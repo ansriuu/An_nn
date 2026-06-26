@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5.2)
+cmake_minimum_required(VERSION 3.7)
 
 
 project(an_nn)
@@ -14,10 +14,4 @@ add_executable(
 	an_nn
 	src/main.cpp
 	src/neuron.cpp
-	src/matrix.cpp
-	src/neural_net.cpp
-	src/layer.cpp
-	src/backpropagation.cpp
-	src/utils/multiplyMatrix.cpp
-	src/utils/matrixToVector.cpp
-)
+	)

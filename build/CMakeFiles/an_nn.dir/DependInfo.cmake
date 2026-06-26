@@ -8,14 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ansriuu/neural_network/src/backpropagation.cpp" "CMakeFiles/an_nn.dir/src/backpropagation.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/backpropagation.cpp.o.d"
-  "/home/ansriuu/neural_network/src/layer.cpp" "CMakeFiles/an_nn.dir/src/layer.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/layer.cpp.o.d"
   "/home/ansriuu/neural_network/src/main.cpp" "CMakeFiles/an_nn.dir/src/main.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/main.cpp.o.d"
-  "/home/ansriuu/neural_network/src/matrix.cpp" "CMakeFiles/an_nn.dir/src/matrix.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/matrix.cpp.o.d"
-  "/home/ansriuu/neural_network/src/neural_net.cpp" "CMakeFiles/an_nn.dir/src/neural_net.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/neural_net.cpp.o.d"
   "/home/ansriuu/neural_network/src/neuron.cpp" "CMakeFiles/an_nn.dir/src/neuron.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/neuron.cpp.o.d"
-  "/home/ansriuu/neural_network/src/utils/matrixToVector.cpp" "CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/utils/matrixToVector.cpp.o.d"
-  "/home/ansriuu/neural_network/src/utils/multiplyMatrix.cpp" "CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o" "gcc" "CMakeFiles/an_nn.dir/src/utils/multiplyMatrix.cpp.o.d"
   "" "an_nn" "gcc" "CMakeFiles/an_nn.dir/link.d"
   )
 
