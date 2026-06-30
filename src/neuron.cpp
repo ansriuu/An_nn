@@ -1,5 +1,16 @@
 #include "../include/neuron.hpp"
 
+neuron::neuron(double val)
+{this->setVal(val);}
+
+
+neuron::neuron(double val,int activatioVal)
+{
+	this->setVal(val);
+	this->activationVal = activationVal;
+}
+
+
 void neuron::setVal(double val)
 {
 	this->val = val;

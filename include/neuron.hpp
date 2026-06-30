@@ -20,7 +20,7 @@ class neuron
 
 	public:
 		neuron(double val);
-		neuron( double val,int activationType);
+		neuron( double val,int activationVal);
 
 		void setVal(double val);
 		void activate();
