@@ -7,6 +7,8 @@ an_nn: \
   CMakeFiles/an_nn.dir/src/main.cpp.o \
   CMakeFiles/an_nn.dir/src/neuron.cpp.o \
   CMakeFiles/an_nn.dir/src/matrix.cpp.o \
+  CMakeFiles/an_nn.dir/src/layer.cpp.o \
+  CMakeFiles/an_nn.dir/src/utils/maths.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -50,6 +52,10 @@ CMakeFiles/an_nn.dir/src/main.cpp.o:
 CMakeFiles/an_nn.dir/src/neuron.cpp.o:
 
 CMakeFiles/an_nn.dir/src/matrix.cpp.o:
+
+CMakeFiles/an_nn.dir/src/layer.cpp.o:
+
+CMakeFiles/an_nn.dir/src/utils/maths.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 

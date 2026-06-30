@@ -15,4 +15,6 @@ add_executable(
 	src/main.cpp
 	src/neuron.cpp
 	src/matrix.cpp
+	src/layer.cpp
+	src/utils/maths.cpp
 	)

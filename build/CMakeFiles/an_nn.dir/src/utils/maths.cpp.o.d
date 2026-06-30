@@ -1,6 +1,7 @@
-CMakeFiles/an_nn.dir/src/layer.cpp.o: \
- /home/ansriuu/neural_network/src/layer.cpp /usr/include/stdc-predef.h \
- /home/ansriuu/neural_network/src/../include/layer.hpp \
+CMakeFiles/an_nn.dir/src/utils/maths.cpp.o: \
+ /home/ansriuu/neural_network/src/utils/maths.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ansriuu/neural_network/src/utils/../../include/utils/math.hpp \
  /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -185,9 +186,17 @@ CMakeFiles/an_nn.dir/src/layer.cpp.o: \
  /usr/include/c++/15/bits/stl_tempbuf.h \
  /usr/include/c++/15/bits/unicode-data.h \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc \
- /home/ansriuu/neural_network/src/../include/neuron.hpp \
- /usr/include/c++/15/math.h /usr/include/c++/15/cmath /usr/include/math.h \
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/vector \
+ /usr/include/c++/15/bits/stl_uninitialized.h \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/fstream \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
+ /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/sstream \
+ /usr/include/c++/15/bits/sstream.tcc /usr/include/assert.h \
+ /home/ansriuu/neural_network/src/utils/../../include/utils/../matrix.hpp \
+ /usr/include/c++/15/random /usr/include/c++/15/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -210,16 +219,10 @@ CMakeFiles/an_nn.dir/src/layer.cpp.o: \
  /usr/include/c++/15/tr1/poly_hermite.tcc \
  /usr/include/c++/15/tr1/poly_laguerre.tcc \
  /usr/include/c++/15/tr1/riemann_zeta.tcc \
- /home/ansriuu/neural_network/src/../include/matrix.hpp \
- /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/random \
  /usr/include/c++/15/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
  /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
  /usr/include/c++/15/bits/stl_numeric.h \
  /usr/include/c++/15/pstl/glue_numeric_defs.h \
  /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/iomanip \
- /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/sstream \
- /usr/include/c++/15/bits/sstream.tcc
+ /usr/include/c++/15/bits/quoted_string.h

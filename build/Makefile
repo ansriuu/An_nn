@@ -129,6 +129,30 @@ an_nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/build
 .PHONY : an_nn/fast
 
+src/layer.o: src/layer.cpp.o
+.PHONY : src/layer.o
+
+# target to build an object file
+src/layer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.o
+.PHONY : src/layer.cpp.o
+
+src/layer.i: src/layer.cpp.i
+.PHONY : src/layer.i
+
+# target to preprocess a source file
+src/layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.i
+.PHONY : src/layer.cpp.i
+
+src/layer.s: src/layer.cpp.s
+.PHONY : src/layer.s
+
+# target to generate assembly for a file
+src/layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/layer.cpp.s
+.PHONY : src/layer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -201,6 +225,30 @@ src/neuron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/neuron.cpp.s
 .PHONY : src/neuron.cpp.s
 
+src/utils/maths.o: src/utils/maths.cpp.o
+.PHONY : src/utils/maths.o
+
+# target to build an object file
+src/utils/maths.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/maths.cpp.o
+.PHONY : src/utils/maths.cpp.o
+
+src/utils/maths.i: src/utils/maths.cpp.i
+.PHONY : src/utils/maths.i
+
+# target to preprocess a source file
+src/utils/maths.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/maths.cpp.i
+.PHONY : src/utils/maths.cpp.i
+
+src/utils/maths.s: src/utils/maths.cpp.s
+.PHONY : src/utils/maths.s
+
+# target to generate assembly for a file
+src/utils/maths.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/an_nn.dir/build.make CMakeFiles/an_nn.dir/src/utils/maths.cpp.s
+.PHONY : src/utils/maths.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... an_nn"
+	@echo "... src/layer.o"
+	@echo "... src/layer.i"
+	@echo "... src/layer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -219,6 +270,9 @@ help:
 	@echo "... src/neuron.o"
 	@echo "... src/neuron.i"
 	@echo "... src/neuron.s"
+	@echo "... src/utils/maths.o"
+	@echo "... src/utils/maths.i"
+	@echo "... src/utils/maths.s"
 .PHONY : help
 
 

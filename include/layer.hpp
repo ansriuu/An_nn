@@ -6,18 +6,19 @@
 #include "matrix.hpp"
 
 
-class neuron
+class layer
 {
 	private:
-		int size:
-		vector<neuron *> neurons:
+		int size;
+		vector<neuron *>  neurons;
+
 	public:
 		layer(int size);
 		layer(int size,int activatonVal) ; void printToConsole();
 		void setVal(int i,double v);
 
 		matrix *matrixifyVals();
-		matrix *matrixifyDerovedVals();
+		matrix *matrixifyDerivedVals();
 		matrix *matrixifyActivatedVals();
 
 		vector<double> getActivatedVals();
